@@ -56,13 +56,13 @@
             key-positions = <24 25>;
         };
 
-        henkan {
-            bindings = <&kp INTERNATIONAL_4>;
+        ime_on {
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <2 3>;
         };
 
-        muhenkan {
-            bindings = <&kp INT_MUHENKAN>;
+        ime_off {
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <6 7>;
         };
     };
