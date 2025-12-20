@@ -44,12 +44,12 @@
 
         ime_on {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <12 13 11 10>;
+            key-positions = <12 13 11>;
         };
 
         ime_off {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <18 19 20 21>;
+            key-positions = <18 19 20>;
         };
     };
 
