@@ -112,8 +112,8 @@
             bindings = <
 &kp HASH                    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_BRACKET                                 &kp RIGHT_BRACKET      &kp AMPERSAND    &kp PIPE      &kp EQUAL    &kp TILDE
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LEFT_PARENTHESIS  &trans         &kp GRAVE   &kp RIGHT_PARENTHESIS  &kp KP_PLUS      &kp KP_MINUS  &kp PERCENT  &kp DOLLAR
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LEFT_BRACE        &kp COLON      &trans      &kp RIGHT_BRACE        &kp KP_ASTERISK  &kp KP_SLASH  &kp CARET    &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans                &trans         &kp DELETE  &trans                                                             &trans
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LEFT_BRACE        &kp COLON      &kp AT      &kp RIGHT_BRACE        &kp KP_ASTERISK  &kp KP_SLASH  &kp CARET    &kp BACKSLASH
+&kp KP_NUMBER_0             &trans           &trans           &trans           &trans                &trans         &kp DELETE  &trans                                                             &trans
             >;
         };
 
@@ -132,7 +132,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &tog 0      &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &tog 0
             >;
         };
