@@ -164,10 +164,10 @@
 
         FORCED_MOUSE {
             bindings = <
-&none  &none  &none  &none  &none                    &kp LA(RIGHT)  &none               &mo 5        &mkp MB2       &none
-&none  &none  &none  &none  &none  &none      &none  &kp LA(LEFT)   &mkp MB1            &mkp MB3     &mkp MB2       &none
-&none  &none  &none  &none  &none  &none      &none  &none          &kp LA(LEFT_ARROW)  &kp LG(TAB)  &kp LA(RIGHT)  &none
-&none  &none  &none  &none  &none  &none      &none  &kp LG(TAB)                                                    &none
+&none  &none  &none  &none  &none                                      &kp LA(RIGHT)  &none               &mo 5        &mkp MB2       &none
+&none  &none  &none  &none  &none  &none      &none                    &kp LA(LEFT)   &mkp MB1            &mkp MB3     &mkp MB2       &none
+&none  &none  &none  &none  &none  &none      &mt RIGHT_ALT RA(SPACE)  &none          &kp LA(LEFT_ARROW)  &kp LG(TAB)  &kp LA(RIGHT)  &none
+&none  &none  &none  &none  &none  &none      &none                    &kp LG(TAB)                                                    &none
             >;
         };
     };
