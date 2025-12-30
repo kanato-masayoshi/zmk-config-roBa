@@ -54,6 +54,11 @@
             bindings = <&kp LANGUAGE_2>;
             key-positions = <18 19>;
         };
+
+        scroll {
+            bindings = <&to 5>;
+            key-positions = <18 9>;
+        };
     };
 
     macros {
@@ -96,7 +101,7 @@
 &sk LCTRL         &kp LEFT_WIN  &lt 1 LA(ESCAPE)  &kp LEFT_ALT  &lt 3 SPACE  &lt_to_layer_0 2 TAB      &kp BACKSPACE            &kp ENTER                             &lt 6 ESCAPE
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         FUNCTION {
@@ -125,7 +130,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                               &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         MOUSE {
