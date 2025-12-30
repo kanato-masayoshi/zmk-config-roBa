@@ -56,7 +56,7 @@
         };
 
         mouse_only_mode {
-            bindings = <&to 4>;
+            bindings = <&to 3>;
             key-positions = <18 9>;
         };
     };
