@@ -111,6 +111,8 @@
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LEFT_BRACE        &kp COLON      &kp AT      &kp RIGHT_BRACE        &kp KP_ASTERISK  &kp KP_SLASH  &kp CARET    &kp BACKSLASH
 &kp KP_NUMBER_0             &trans           &trans           &trans           &trans                &trans         &kp DELETE  &trans                                                             &trans
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         ARROW {
