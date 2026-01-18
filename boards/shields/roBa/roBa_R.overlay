@@ -16,7 +16,6 @@
 };
 
 &zip_temp_layer {
-    status = "okay";
     excluded-positions = <
         18 // J
         19 // K
@@ -29,6 +28,7 @@
 };
 / {
     trackball_listener {
+        status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
