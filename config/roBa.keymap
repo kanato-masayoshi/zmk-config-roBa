@@ -15,7 +15,7 @@
 &mkp_input_listener { input-processors = <&zip_temp_layer 5 250>; };
 
 &trackball {
-    automouse-layer = <4>;
+    // Keep scroll conversion on layer 5; only automouse activation was removed.
     scroll-layers = <5>;
 
     // arrows {
