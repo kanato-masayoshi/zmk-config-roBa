@@ -16,14 +16,6 @@
 };
 
 &zip_temp_layer {
-    excluded-positions = <
-        18 // J
-        19 // K
-        20 // L
-        7 // I
-        8 // O
-        9 // P
-    >;
     require-prior-idle-ms = <500>;
 };
 / {
