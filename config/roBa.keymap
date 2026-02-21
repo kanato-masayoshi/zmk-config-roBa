@@ -16,7 +16,6 @@
 
 &trackball {
     // Keep scroll conversion on layer 5; only automouse activation was removed.
-
     scroll-layers = <5>;
 
     // arrows {
