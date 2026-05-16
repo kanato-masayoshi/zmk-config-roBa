@@ -16,6 +16,7 @@
 
 &trackball {
     // Keep scroll conversion on layer 5; only automouse activation was removed.
+
     scroll-layers = <5>;
 
     // arrows {
@@ -143,7 +144,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &kp DELETE  &trans                                               &trans
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
         MOUSE_ONLY {
