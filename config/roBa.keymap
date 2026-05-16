@@ -109,6 +109,14 @@
 
             tap-ms = <20>;
         };
+        encoder_kp_left_right: encoder_kp_left_right {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_KP_LEFT_RIGHT";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp LEFT>, <&kp RIGHT>;
+
+            tap-ms = <20>;
+        };
     };
 
     keymap {
@@ -144,7 +152,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &kp DELETE  &trans                                               &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
+            sensor-bindings = <&encoder_kp_left_right>;
         };
 
         MOUSE_ONLY {
